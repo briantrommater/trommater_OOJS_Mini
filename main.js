@@ -139,18 +139,18 @@ function School() {
 
 //create some instances
 var phillySchool = new School();
-phillySchool.addStudent(new Student("mike","mike@", "C", '11', 'soccer'));
-phillySchool.addStudent(new Student("brian","brian@", "A", '12', 'hockey'));
-phillySchool.addStudent(new Student("angel","angel@", "B", '9', 'fieldhockey'));
-phillySchool.addStudent(new Student("joe","joe@", "D", '6', 'badmitten'));
-phillySchool.addStudent(new Student("dan","dan@", "F", '5', 'football'));
-phillySchool.addStudent(new Student("kim","kim@", "F", '7', 'lacross'));
-phillySchool.addStudent(new Student("ski","ski@", "F", '8', 'basketball'));
+phillySchool.addStudent(new Student("mike","mike@", "A", '11', 'hockey'));
+phillySchool.addStudent(new Student("brian","brian@", "F", '12', 'raquetball'));
+phillySchool.addStudent(new Student("angel","angel@", "B", '9', 'weightlifting'));
+phillySchool.addStudent(new Student("joe","joe@", "C", '6', 'badmitten'));
+phillySchool.addStudent(new Student("dan","dan@", "D", '5', 'football'));
+phillySchool.addStudent(new Student("kim","kim@", "B", '7', 'lacross'));
+phillySchool.addStudent(new Student("ski","ski@", "C", '8', 'basketball'));
 
-phillySchool.addTeacher(new Teacher("eric","eric@", 'math', '39'));
-phillySchool.addTeacher(new Teacher("damian","damian@", 'science', '44'));
+phillySchool.addTeacher(new Teacher("eric","eric@", 'math', '31'));
+phillySchool.addTeacher(new Teacher("damian","damian@", 'science', '34'));
 phillySchool.addTeacher(new Teacher("devin","devin@", 'history', '33'));
-phillySchool.addTeacher(new Teacher("tarana","tarana@", 'english', '36'));
+phillySchool.addTeacher(new Teacher("tarana","tarana@", 'english', '31'));
 
 //try calling a fx
 phillySchool.listStudents();
